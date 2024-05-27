@@ -1,0 +1,47 @@
+{
+  "name": "blog-platform",
+  "version": "1.0.0",
+  "description": "This project is a robust backend for a blog application, designed with security and efficiency in mind. It provides comprehensive features for user authentication, content management, and various other functionalities essential for a modern blogging platform.",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=development&nodemon server.js",
+    "start:prod": "SET NODE_ENV=production&nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Muhammad Waseem",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "busboy": "^1.6.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-useragent": "^1.0.15",
+    "firebase": "^10.12.1",
+    "formidable": "^3.5.1",
+    "joi": "^17.13.1",
+    "jsonc": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.7",
+    "nodemailer": "^6.9.13",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.37.3",
+    "validator": "^13.11.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iam-mwaseem/blog-platform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iam-mwaseem/blog-platform/issues"
+  },
+  "homepage": "https://github.com/iam-mwaseem/blog-platform#readme"
+}
